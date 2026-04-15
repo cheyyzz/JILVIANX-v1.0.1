@@ -1,40 +1,128 @@
-# JilvianX
+# 🚀 JilvianX
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Status](https://img.shields.io/badge/Status-Active-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![DSA Project](https://img.shields.io/badge/DSA-Project-orange)
 
-JilvianX adalah aplikasi console Python yang mensimulasikan vending machine modern dengan penerapan berbagai struktur data dan algoritma seperti stack, queue, tree, graph, dan searching/sorting untuk kebutuhan akademik dan demonstrasi konsep DSA.
+> 💡 **Future Vending Machine Simulation**  
+> Console-based Python application for implementing **Data Structures & Algorithms (DSA)** concepts.
 
-## Fitur
+---
 
-- Product catalog
-- Product search dengan binary search
-- Product sort dengan bubble sort dan quick sort
-- Transaction history dengan singly linked list
-- Undo/redo pesanan dengan stack
-- Order queue dengan queue FIFO
-- Kategori produk dengan binary tree traversal
-- Produk berdasarkan harga dengan binary search tree
-- Restock route dengan graph berbobot + Dijkstra
-- Rekomendasi produk dengan graph + BFS
+## 📖 About Project
 
-## Cara Menjalankan
+**JilvianX** adalah aplikasi console Python yang mensimulasikan vending machine modern dengan penerapan berbagai struktur data dan algoritma seperti:
 
-1. Pastikan Python 3 sudah terpasang.
-2. Jalankan perintah:
+- Stack
+- Queue
+- Linked List
+- Tree & BST
+- Graph
+- Searching & Sorting
+
+Project ini dibuat untuk kebutuhan **akademik**, demonstrasi konsep **DSA**, dan presentasi tugas kelompok 🎓✨
+
+---
+
+## ✨ Features
+
+- 📦 Product catalog
+- 🔍 Product search dengan **Binary Search**
+- ↕️ Product sort dengan **Bubble Sort** & **Quick Sort**
+- 🧾 Transaction history menggunakan **Singly Linked List**
+- ↩️ Undo / Redo pesanan dengan **Stack**
+- 🚶 Order queue dengan **FIFO Queue**
+- 🌳 Kategori produk dengan **Binary Tree Traversal**
+- 💰 Produk berdasarkan harga dengan **BST**
+- 🗺️ Restock route dengan **Weighted Graph + Dijkstra**
+- 🎯 Rekomendasi produk dengan **Graph + BFS**
+
+---
+
+## ▶️ How to Run
+
+Pastikan **Python 3** sudah terpasang.
+
+Jalankan perintah berikut:
 
 ```bash
 python main.py
 ```
 
-## Pemetaan Modul DSA
+---
 
-1. Modul 1: `sorting` dan `binary search` ada di menu `Product Search & Sort`
-2. Modul 2: `singly linked list` ada di menu `Transaction History`
-3. Modul 3: `stack` ada di menu `Undo/Redo Pesanan`
-4. Modul 4: `queue` ada di menu `Order Queue`
-5. Modul 5: `binary tree` ada di menu `Kategori Produk`
-6. Modul 6: `BST` ada di menu `BST Produk`
-7. Modul 7: `weighted graph + Dijkstra` ada di menu `Restock Route`
-8. Modul 8: `graph + BFS` ada di menu `Rekomendasi Produk`
+## 📚 DSA Module Mapping
+
+### 🔹 Module 1 — Searching & Sorting
+- Menampilkan daftar produk
+- Sort berdasarkan **harga / nama**
+- **Bubble Sort** / **Quick Sort**
+- Search produk dengan **Binary Search**
+
+---
+
+### 🔹 Module 2 — Linked List
+- Riwayat transaksi menggunakan **Singly Linked List**
+- Insert transaksi baru
+- Hapus transaksi
+- Tampilkan semua history
+
+---
+
+### 🔹 Module 3 — Stack
+- Setiap aksi pemilihan produk di-push ke stack
+- **UNDO** → `pop()`
+- **REDO** → `push()`
+
+---
+
+### 🔹 Module 4 — Queue
+- Antrian pelanggan menggunakan **FIFO**
+- Diproses dari depan antrian
+
+---
+
+### 🔹 Module 5 — Binary Tree
+- Hierarki kategori produk
+- Traversal:
+  - Pre-order
+  - In-order
+  - Post-order
+
+---
+
+### 🔹 Module 6 — BST
+- Produk dimasukkan berdasarkan harga
+- Insert produk
+- Search by harga
+- Sorted output dengan **In-order Traversal**
+
+---
+
+### 🔹 Module 7 — Weighted Graph
+- Node = lokasi vending machine
+- Edge = jarak antar lokasi
+- Shortest path menggunakan **Dijkstra**
+
+---
+
+### 🔹 Module 8 — Graph Recommendation
+- Node = produk
+- Edge = produk yang sering dibeli bersamaan
+- Rekomendasi menggunakan **BFS**
+
+---
+
+## 👨‍💻 Project Team
+
+| Name : |
+|---|
+| **Sahay, Febriansyah Javier Anton** |
+| **Pantouw,Injili Lidya Febrianti** |
+| **Tamon, Jill Juan** |
+| **Walangitan, Cheiven** |
+---
+
+## 🎓 Purpose
+
+Project ini dibuat untuk mengimplementasikan konsep **Data Structures & Algorithms** dalam studi kasus nyata yaitu simulasi vending machine modern.
